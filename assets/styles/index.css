@@ -1,15 +1,9 @@
 body {
-    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 99%, #fecfef 100%);
+    background: #aee38c;
     background-size: 2000% auto;
     animation: gradient 30s ease infinite;
     margin: 0;
     font-family: Arial, sans-serif;
-}
-
-@keyframes gradient {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
 }
 
 .content {
@@ -41,7 +35,7 @@ body {
 
 .text-right {
     text-align: center;
-    color: #dc94f5;
+    color: #ff7e84;
 }
 
 h1 {
@@ -63,7 +57,7 @@ h2 {
 }
 
 .button {
-    background-color: #a83fff;
+    background-color: #cc6aef;
     color: white;
     border: none;
     padding: 10px 20px;

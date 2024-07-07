@@ -99,9 +99,9 @@ img {
 
 .panel {
     background-color: rgba(255, 255, 255, 0.8);
-    padding: 40px;
+    padding: 70px;
     border-radius: 10px;
-    margin: 10px;
+    margin: 50px;
     flex: 0 0 45%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;

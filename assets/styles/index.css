@@ -12,12 +12,12 @@ body {
 }
 
 .avatar-container {
+    font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     margin-top: 50px;
-    padding: 0 20px;
 }
 
 .text {
@@ -89,10 +89,10 @@ img {
 }
 
 .panel-container {
-    display: flex;
-    justify-content: center;
+    font-family: Arial, sans-serif;
+    display: list-item;
+    position: relative;
     margin-top: 50px;
-    flex-wrap: wrap;
 }
 
 .panel {

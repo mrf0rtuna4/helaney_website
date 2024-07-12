@@ -12,6 +12,7 @@ body {
 }
 
 .avatar-container {
+    font-family: Arial, sans-serif;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,6 +37,7 @@ body {
 .text-right {
     text-align: center;
     color: #ff7e84;
+    padding: 0 20px;
 }
 
 h1 {
@@ -54,6 +56,7 @@ h2 {
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .button {
@@ -61,7 +64,7 @@ h2 {
     color: white;
     border: none;
     padding: 10px 20px;
-    margin: 0 10px;
+    margin: 10px;
     border-radius: 5px;
     text-decoration: none;
     font-size: 16px;
@@ -86,8 +89,9 @@ img {
 }
 
 .panel-container {
-    display: flex;
-    justify-content: center;
+    font-family: Arial, sans-serif;
+    display: list-item;
+    position: relative;
     margin-top: 50px;
 }
 
@@ -95,7 +99,7 @@ img {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 70px;
     border-radius: 10px;
-    margin: 50px;
+    margin: 20px;
     flex: 0 0 45%;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -123,5 +127,46 @@ img {
 .panel-buttons {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+    .panel {
+        flex: 0 0 90%;
+        padding: 40px;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.2em;
+    }
+
+    .button {
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .panel {
+        flex: 0 0 100%;
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+
+    .button {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
 }
